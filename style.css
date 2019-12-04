@@ -1,0 +1,81 @@
+body{
+    font-family:Arial;
+    background-color: #FECA01;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    font-size:20px;
+}
+
+.index{
+    border-style:solid;
+    border-color:white;
+    border-width:20px;
+    margin-top:50px;
+    padding:30px,0px,30px,0px;
+    font-family:Arial;
+}
+
+#title{
+    float:left;
+    margin-left:5px;
+    max-width:50px;
+    font-size:100px;
+}
+
+
+h2{
+    background-color:white;
+    color:#B3CE31;
+}
+	        
+h1:hover{
+	font-family:(url)"GlacialIndifference-Bold.otf";
+}
+	    
+img{
+    border-width:5px;
+    border-color: white;
+    border-style: solid;
+}
+	    
+a{
+    color: white;
+}
+
+
+h1{
+	 font-size: 60px;
+	 color: white;
+}
+
+h2:hover{
+    background-color:white;
+	 color: white;
+	 text-shadow: 
+	1px 1px 0 #5EB2CB,
+    -1px 1px 0 #5EB2CB,
+    1px -1px 0 #5EB2CB,
+    -1px -1px 0 #5EB2CB,
+    0px 1px 0 #5EB2CB,
+    0px -1px 0 #5EB2CB,
+    -1px 0px 0 #5EB2CB,
+    1px 0px 0 #5EB2CB,
+    2px 2px 0 #5EB2CB,
+    -2px 2px 0 #5EB2CB,
+    2px -2px 0 #5EB2CB,
+    -2px -2px 0 #5EB2CB,
+    0px 2px 0 #5EB2CB,
+    0px -2px 0 #5EB2CB,
+    -2px 0px 0 #5EB2CB,
+    2px 0px 0 #5EB2CB,
+    1px 2px 0 #5EB2CB,
+    -1px 2px 0 #5EB2CB,
+    1px -2px 0 #5EB2CB,
+    -1px -2px 0 #5EB2CB,
+    2px 1px 0 #5EB2CB,
+    -2px 1px 0 #5EB2CB,
+    2px -1px 0 #5EB2CB,
+    -2px -1px 0 #5EB2CB;
+
+}
