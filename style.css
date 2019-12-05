@@ -7,30 +7,65 @@ body{
     font-size:20px;
 }
 
+.row{
+    margin-bottom:10px;
+}
+
+#la1{
+    margin-right:-100px;
+}
+
+#la2{
+    margin-right:-118px;
+}
+
+#la3{
+    margin-right:-180px;
+}
+
+#la4{
+    margin-right:-111px;
+}
+
+h2.hid{
+    visibility: hidden;
+    display:inline;
+    margin-left:10px;
+}
+
+#l1:hover .hid,#l2:hover .hid,#l3:hover .hid,#l4:hover .hid{
+    visibility:visible;  
+}
+
+#xa1{
+    margin-right: -100px
+}
+
+#xa2{
+    margin-right:-110px;
+}
+
 .index{
-    border-style:solid;
-    border-color:white;
-    border-width:20px;
     margin-top:50px;
     padding:30px,0px,30px,0px;
     font-family:Arial;
 }
 
 #title{
-    float:left;
     margin-left:5px;
     max-width:50px;
-    font-size:100px;
+    font-size:150px;
+    font-weight:bolder;
 }
 
 
-h2{
+h4{
     background-color:white;
     color:#B3CE31;
 }
 	        
-h1:hover{
-	font-family:(url)"GlacialIndifference-Bold.otf";
+h1{
+	font-family: 'Roboto Slab', serif;
 }
 	    
 img{
@@ -44,38 +79,121 @@ a{
 }
 
 
-h1{
-	 font-size: 60px;
-	 color: white;
+#menu{
+    font-family: 'Roboto Slab', serif;
+    font-weight:500;
+}
+/*styling for navbar*/
+body {
+  font-family: 'Roboto Slab', serif;
 }
 
-h2:hover{
-    background-color:white;
-	 color: white;
+.nvbar {
+  overflow: hidden;
+  background-color: white;
+  padding-bottom: 7px;
+}
+
+.nvbar a {
+  float: none;
+  font-size: 12px;
+  color: #FECA01;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.nvbar a:hover, .drpdown:hover .drpbtn {
+  background-color: #B7D300;
+  color:white;
+}
+
+.header{
+    padding-top:5px;
+    padding-bottom:15px;
+    font-weight:800;
+}
+.desc{
+    float:left;
+    margin-right: 10px;
+}
+
+.desc:hover{
+    border:solid 5px #B7D300;
+    outline:solid 5px white;
+    width:200px;
+    height:200px;
+    margin-right:15px;
+}
+
+.desc2{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    max-width:1000px;
+}
+
+.aboutme{
+    margin-top:75px;
+}
+
+.cl{
+    transition: width 0.2s, height 0.2s;
+}
+
+.cl:hover{
+    width:325px;
+    height:325px;
+    filter:brightness(85%);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.cl:hover + .centered{
+    visibility: visible;
+}
+
+.centered:hover{
+    visibility: visible;
+}
+
+#x{
+    padding-top:50px;
+}
+
+.header:hover{
+	 color: #B7D300;
+     text-decoration:none;
 	 text-shadow: 
-	1px 1px 0 #5EB2CB,
-    -1px 1px 0 #5EB2CB,
-    1px -1px 0 #5EB2CB,
-    -1px -1px 0 #5EB2CB,
-    0px 1px 0 #5EB2CB,
-    0px -1px 0 #5EB2CB,
-    -1px 0px 0 #5EB2CB,
-    1px 0px 0 #5EB2CB,
-    2px 2px 0 #5EB2CB,
-    -2px 2px 0 #5EB2CB,
-    2px -2px 0 #5EB2CB,
-    -2px -2px 0 #5EB2CB,
-    0px 2px 0 #5EB2CB,
-    0px -2px 0 #5EB2CB,
-    -2px 0px 0 #5EB2CB,
-    2px 0px 0 #5EB2CB,
-    1px 2px 0 #5EB2CB,
-    -1px 2px 0 #5EB2CB,
-    1px -2px 0 #5EB2CB,
-    -1px -2px 0 #5EB2CB,
-    2px 1px 0 #5EB2CB,
-    -2px 1px 0 #5EB2CB,
-    2px -1px 0 #5EB2CB,
-    -2px -1px 0 #5EB2CB;
+	1px 1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    0px 1px 0 #FFFFFF,
+    0px -1px 0 #FFFFFF,
+    -1px 0px 0 #FFFFFF,
+    1px 0px 0 #FFFFFF,
+    2px 2px 0 #FFFFFF,
+    -2px 2px 0 #FFFFFF,
+    2px -2px 0 #FFFFFF,
+    -2px -2px 0 #FFFFFF,
+    0px 2px 0 #FFFFFF,
+    0px -2px 0 #FFFFFF,
+    -2px 0px 0 #FFFFFF,
+    2px 0px 0 #FFFFFF,
+    1px 2px 0 #FFFFFF,
+    -1px 2px 0 #FFFFFF,
+    1px -2px 0 #FFFFFF,
+    -1px -2px 0 #FFFFFF,
+    2px 1px 0 #FFFFFF,
+    -2px 1px 0 #FFFFFF,
+    2px -1px 0 #FFFFFF,
+    -2px -1px 0 #FFFFFF;
 
 }
