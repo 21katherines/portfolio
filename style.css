@@ -7,6 +7,7 @@ body{
     font-size:20px;
 }
 
+
 .row{
     margin-bottom:10px;
 }
@@ -22,15 +23,15 @@ body{
 }
 
 #la2{
-    margin-right:-118px;
+    margin-right:-120px;
 }
 
 #la3{
-    margin-right:-180px;
+    margin-right:-196px;
 }
 
 #la4{
-    margin-right:-111px;
+    margin-right:-123px;
 }
 
 h2.hid{
@@ -92,6 +93,12 @@ a{
 /*styling for navbar*/
 body {
   font-family: 'Roboto Slab', serif;
+}
+
+.act{
+    text-decoration-line: underline;
+    text-decoration-color:black;
+    text-decoration-style: wavy
 }
 
 .nvbar {
