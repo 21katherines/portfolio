@@ -40,7 +40,7 @@ h2.hid{
     margin-left:10px;
 }
 
-#l1:hover + .hid,#l2:hover + .hid,#l3:hover + .hid,#l4:hover + .hid{
+#l1:hover +.hid,#l2:hover +.hid,#l3:hover +.hid,#l4:hover +.hid{
     visibility:visible;  
 }
 
