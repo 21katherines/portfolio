@@ -1,6 +1,6 @@
 body{
     font-family:'Roboto Slab', serif;
-    background-color: #FECA01;
+    background-color: #EFBF00;
     color:white;
     font-weight:bold;
     text-align:center;
@@ -15,7 +15,7 @@ body{
 .box{
     background-color:white;
     min-width:500px;
-    color:#FECA01;
+    color:#EFBF00;
 }
 
 #la1{
@@ -40,7 +40,7 @@ h2.hid{
     margin-left:10px;
 }
 
-#l1:hover .hid,#l2:hover .hid,#l3:hover .hid,#l4:hover .hid{
+#l1:hover + .hid,#l2:hover + .hid,#l3:hover + .hid,#l4:hover + .hid{
     visibility:visible;  
 }
 
@@ -110,7 +110,7 @@ body {
 .nvbar a {
   float: none;
   font-size: 12px;
-  color: #FECA01;
+  color: #EFBF00;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
