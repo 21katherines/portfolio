@@ -35,14 +35,17 @@ body{
 }
 
 h2.hid{
-    visibility: hidden;
+    opacity:0;
     display:inline;
     margin-left:10px;
+    transition:0.2s;
 }
 
 #l1:hover +.hid,#l2:hover +.hid,#l3:hover +.hid,#l4:hover +.hid{
-    visibility:visible;  
+    opacity:1;
 }
+
+
 
 #xa1{
     margin-right: -100px
@@ -174,6 +177,10 @@ body {
 
 #x{
     padding-top:50px;
+}
+
+.nojump{
+    max-height: 5px;
 }
 
 .header:hover{
