@@ -7,6 +7,13 @@ body{
     font-size:20px;
 }
 
+p{
+    font-weight:normal;
+}
+
+h1{
+    font-weight: bold;
+}
 
 .row{
     margin-bottom:10px;
@@ -45,8 +52,6 @@ h2.hid{
     opacity:1;
 }
 
-
-
 #xa1{
     margin-right: -100px
 }
@@ -68,11 +73,6 @@ h2.hid{
     font-weight:bolder;
 }
 
-
-h4{
-    background-color:white;
-    color:#B3CE31;
-}
 	        
 h1{
 	font-family: 'Roboto Slab', serif;
@@ -165,13 +165,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   visibility: hidden;
+  pointer-events: none;
 }
 
 .cl:hover + .centered{
     visibility: visible;
 }
 
-.centered:hover{
+.centered:hover {
     visibility: visible;
 }
 
@@ -180,7 +181,52 @@ body {
 }
 
 .nojump{
-    max-height: 5px;
+    position:relative;
+}
+
+div > h2{
+    font-weight:bold;
+}
+
+.blurb{
+    font-size:20px;
+    line-height:20px;
+    background-color:#EFBF00;
+    transition:0.15s;
+}
+
+.bread:hover{
+    color:#EFBF00;
+    text-decoration:none;
+    text-shadow: 
+    1px 1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    0px 1px 0 #FFFFFF,
+    0px -1px 0 #FFFFFF,
+    -1px 0px 0 #FFFFFF,
+    1px 0px 0 #FFFFFF,
+    2px 2px 0 #FFFFFF,
+    -2px 2px 0 #FFFFFF,
+    2px -2px 0 #FFFFFF,
+    -2px -2px 0 #FFFFFF,
+    0px 2px 0 #FFFFFF,
+    0px -2px 0 #FFFFFF,
+    -2px 0px 0 #FFFFFF,
+    2px 0px 0 #FFFFFF,
+    1px 2px 0 #FFFFFF,
+    -1px 2px 0 #FFFFFF,
+    1px -2px 0 #FFFFFF,
+    -1px -2px 0 #FFFFFF,
+    2px 1px 0 #FFFFFF,
+    -2px 1px 0 #FFFFFF,
+    2px -1px 0 #FFFFFF,
+    -2px -1px 0 #FFFFFF;
+}
+
+.underline{
+    text-decoration:underline;
 }
 
 .header:hover{
