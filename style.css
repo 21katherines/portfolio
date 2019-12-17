@@ -259,3 +259,50 @@ div > h2{
     -2px -1px 0 #FFFFFF;
 
 }
+
+/* Tooltp container */
+.Tooltp {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltp text */
+.Tooltp .Tooltptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the Tooltp text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in Tooltp */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltp arrow */
+.Tooltp .Tooltptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the Tooltp text when you mouse over the Tooltp container */
+.Tooltp:hover .Tooltptext {
+  visibility: visible;
+  opacity: 1;
+}
