@@ -15,6 +15,41 @@ h1{
     font-weight: bold;
 }
 
+.modal-backdrop {
+   background-color: #B7D300;
+}
+
+.row > .btn{
+    background-color:#B7D300;
+    color:white;
+    border:white solid 3px;
+    height:100px;
+    width:600px;
+}
+
+.row > .btn:hover{
+    background-color:white;
+    color:#B7D300;
+    border:white solid 3px;
+}
+
+.btn:active{
+     background-color:white;
+    color:#B7D300;
+    border:white solid 3px;
+}
+
+.modaldesc{
+    color:#f5c100;
+    font-size:18px;
+}
+
+.modaltitle{
+    font-size:50px;
+    color:#f5c100;
+    font-weight:bold;
+}
+
 .row{
     margin-bottom:10px;
 }
@@ -193,6 +228,7 @@ div > h2{
     line-height:20px;
     background-color:#EFBF00;
     transition:0.15s;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bread:hover{
@@ -260,49 +296,33 @@ div > h2{
 
 }
 
-/* Tooltp container */
-.Tooltp {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltp text */
-.Tooltp .Tooltptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the Tooltp text */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-
-  /* Fade in Tooltp */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-/* Tooltp arrow */
-.Tooltp .Tooltptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Show the Tooltp text when you mouse over the Tooltp container */
-.Tooltp:hover .Tooltptext {
-  visibility: visible;
-  opacity: 1;
+.extra{
+    font-size:70px;
+    color:#EFBF00;
+    text-decoration:none;
+     text-shadow: 
+    1px 1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    0px 1px 0 #FFFFFF,
+    0px -1px 0 #FFFFFF,
+    -1px 0px 0 #FFFFFF,
+    1px 0px 0 #FFFFFF,
+    2px 2px 0 #FFFFFF,
+    -2px 2px 0 #FFFFFF,
+    2px -2px 0 #FFFFFF,
+    -2px -2px 0 #FFFFFF,
+    0px 2px 0 #FFFFFF,
+    0px -2px 0 #FFFFFF,
+    -2px 0px 0 #FFFFFF,
+    2px 0px 0 #FFFFFF,
+    1px 2px 0 #FFFFFF,
+    -1px 2px 0 #FFFFFF,
+    1px -2px 0 #FFFFFF,
+    -1px -2px 0 #FFFFFF,
+    2px 1px 0 #FFFFFF,
+    -2px 1px 0 #FFFFFF,
+    2px -1px 0 #FFFFFF,
+    -2px -1px 0 #FFFFFF;
 }
